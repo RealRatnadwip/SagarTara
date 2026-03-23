@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Card</title>
+<title>SagarTara</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,10 +79,27 @@ body {
     font-family: 'Big Shoulders', sans-serif;
     transition: color 0.4s ease;
 }
+
+.instruction {
+    position: fixed;
+    top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #7E8287;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Big Shoulders', sans-serif;
+    transition: color 0.4s ease;
+}
 </style>
 </head>
 
 <body>
+
+<div class="instruction" >Tap Image to see more.</div>
 
 <div class="card closed" id="card">
     <img id="closedImg" src="closed.png" alt="Card" class="img closed-img">
